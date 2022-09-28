@@ -13,6 +13,24 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>  
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="basic.html">BASIC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">ADVANCED</a>
+              </li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
     
     <h1>Insects by Lakshmikalyani</h1>
     <div class="container">
@@ -132,6 +150,48 @@
         <li><a class="dropdown-item" href="advanced.html">Advance</a></li>
       </ul>
     </div>
-
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" placeholder="Enter your email address:" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="form-group">
+          <label for="insects" class="form-label">Insects</label>
+          <input type="text" placeholder="Enter insects name:" class="form-control" for="insects">
+          <div id="insectsChoice" class="form-text">Enter your Insect.</div>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="cockroach.jpg" class="card-img-top" alt="cockroach">
+          <div class="card-body">
+            <h5 class="card-title">Cockroach</h5>
+            <p class="card-text">Cockroaches (or roaches) are a paraphyletic group of insects belonging to Blattodea, containing all members of the group except termites.</p>
+            <a href="https://theconversation.com/hidden-housemates-cockroaches-54947" class="btn btn-primary">About</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="housefly.jpg" class="card-img-top" alt="housefly">
+          <div class="card-body">
+            <h5 class="card-title">Housefly</h5>
+            <p class="card-text">The housefly is a fly of the suborder Cyclorrhapha. It is believed to have evolved in the Cenozoic Era, possibly in the Middle East, and has spread all over the world as a commensal of humans.</p>
+            <a href="https://www.medicalnewstoday.com/articles/how-to-get-rid-of-houseflies" class="btn btn-primary">About</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="inchworm.jpg" class="card-img-top" alt="inchworm">
+          <div class="card-body">
+            <h5 class="card-title">Inchworm</h5>
+            <p class="card-text">The geometer moths are moths belonging to the family Geometridae of the insect order Lepidoptera, the moths and butterflies.</p>
+            <a href="https://www.dailytrib.com/2021/04/23/inchworm-invasion-of-the-highland-lakes/" class="btn btn-primary">About</a>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
